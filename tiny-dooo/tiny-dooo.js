@@ -5,9 +5,9 @@
     // we don't need it, we use old school window.UniversalRouter
     // import UniversalRouter from 'universal-router'
 
-    const vanillaDoooMainEl = document.querySelector('.vanilla-dooo-main');
-    if (vanillaDoooMainEl == null) {
-        console.error('Main class .vanilla-dooo-main does not exist, please add it to html!');
+    const tinyDoooMainEl = document.querySelector('.tiny-dooo-main-content-area');
+    if (tinyDoooMainEl == null) {
+        console.error('Main class .tiny-dooo-main does not exist, please add it to html!');
     }
 
     const routes = [
@@ -38,10 +38,10 @@
                             switch(fileFormat){
                                 case '.html':
                                 case '.htm':
-                                    vanillaDoooMainEl.innerHTML = textContent;
+                                    tinyDoooMainEl.innerHTML = textContent;
                                     break;
                                 case '.md':
-                                    vanillaDoooMainEl.innerHTML = marked(textContent);
+                                    tinyDoooMainEl.innerHTML = marked(textContent);
                                     break;
                                 default:
                                     console.error('Unknown file extension',fileFormat);
@@ -50,7 +50,7 @@
                         }).catch(function (err) {
                             // There was an error
                             console.warn('Something went wrong.', err);
-                            vanillaDoooMainEl.innerHTML = '<h1>Content file could not be loaded</h1>';
+                            tinyDoooMainEl.innerHTML = '<h1>Content file could not be loaded</h1>';
                         });
                         return true; // important, otherwise universal-router throws error
                     }
@@ -63,9 +63,9 @@
         errorHandler: function(error) {
             console.warn('Error handler called', error);
             if (error.code === 404) {
-                vanillaDoooMainEl.innerHTML = '<h1>Page Not Found</h1>';
+                tinyDoooMainEl.innerHTML = '<h1>Page Not Found</h1>';
             } else {
-                vanillaDoooMainEl.innerHTML = '<h1>Oops! Something went wrong</h1>';
+                tinyDoooMainEl.innerHTML = '<h1>Oops! Something went wrong</h1>';
             }
         }
     });

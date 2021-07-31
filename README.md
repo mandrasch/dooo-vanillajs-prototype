@@ -1,11 +1,11 @@
-# Vanilla DoOO
+# tiny-DoOO
 Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own.de/). Empower students / teachers to publish their own tiny html websites with simple page navigation on Github Pages.
 
 The html5up.com theme "Phantom" was used as example, but you can use every HTML template you want with small additions.
 
 ## Play with it
 
-- Preview: https://mandrasch.github.io/vanilla-dooo/
+- Preview: https://mandrasch.github.io/tiny-dooo/
 
 ## Create your own tiny website
 
@@ -55,18 +55,18 @@ See https://github.com/SamKirkland/FTP-Deploy-Action on how to transfer the webs
 
 ### Install for another theme
 
-With some simple steps HTML themes can be converted to use with vanilla-dooo.
+With some simple steps HTML themes can be converted to use with tiny-dooo.
 
-1. Add `vanilla-dooo-main` class to main content area where content should be loaded
+1. Add `ttiny-dooo-main-content-area` class to main content area where content should be loaded dynamilly
 
-2. Add vanilla-dooo-scripts at the end of body
+2. Add tiny-dooo-scripts at the end of body
 
     ```
-    <!-- vanilla-dooo -->
-	<script src="vanilla-dooo/universal-router.min.js"></script>
-	<script src="vanilla-dooo/marked.min.js"></script>
-	<script src="vanilla-dooo/vanilla-dooo.js"></script>
-	<!-- eo vanilla-dooo -->
+    <!-- tiny-dooo -->
+	<script src="tiny-dooo/universal-router.min.js"></script>
+	<script src="tiny-dooo/marked.min.js"></script>
+	<script src="tiny-dooo/tiny-dooo.js"></script>
+	<!-- eo tiny-dooo -->
     ```
 
 3. Link pages with `#/pages/filename`, e.g. `#/pages/test1` to load `pages/test1.html`
