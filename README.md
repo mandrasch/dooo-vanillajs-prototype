@@ -1,20 +1,33 @@
 # Vanilla DoOO
 Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own.de/). Empower students / teachers to publish their own tiny html websites with simple page navigation on Github Pages.
 
+The html5up.com theme "Phantom" was used as example, but you can use every HTML template you want with small additions.
+
 ## Play with it
 
 - Preview: https://mandrasch.github.io/vanilla-dooo/
 
 ## Create your own tiny website
 
-1. Click on "Use template" button, create your own repository
+1. Click on "Use template" button to create your own repository
+
 2. Sign up with Github on https://replit.com/
+
 3. Create project, select "Import from Github"
+
 4. Select your newly created repository from list
+
 5. Select "HTML" as language
+
 6. Hit "Run"
+
 7. Open "version control" in sidebar, give replit.com editing permissions for the github repository
-8. Have fun editing online!
+
+8. Commit changes you made to Github
+
+9. Have fun editing it in your browser!
+
+(Alternatively you can use [Github Desktop](https://desktop.github.com) and an editor such as [Visual Studio Code](https://code.visualstudio.com/) to edit this project on your local laptop)
 
 ## Link to content pages
 
@@ -31,6 +44,10 @@ Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own
     ```
     <a href="#/pages/my-project.md`>My project link</a>
     ```
+
+## Transfer it to your own webspace
+
+See https://github.com/SamKirkland/FTP-Deploy-Action on how to transfer the website automatically to your webspace with help of Github Actions feature.
 
 <hr>
 
