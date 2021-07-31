@@ -1,5 +1,5 @@
 {
-  "name": "dooo-vanillajs-prototype",
+  "name": "tiny-dooo",
   "version": "1.0.0",
   "description": "Tiny prototype for the \"domain of ones own\" concept",
   "main": "index.html",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mandrasch/dooo-vanillajs-prototype.git"
+    "url": "git+https://github.com/mandrasch/tiny-dooo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mandrasch/dooo-vanillajs-prototype/issues"
+    "url": "https://github.com/mandrasch/tiny-dooo/issues"
   },
-  "homepage": "https://github.com/mandrasch/dooo-vanillajs-prototype#readme",
+  "homepage": "https://github.com/mandrasch/tiny-dooo#readme",
   "devDependencies": {
     "browser-sync": "^2.27.5"
   }
