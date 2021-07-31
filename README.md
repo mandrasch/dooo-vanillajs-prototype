@@ -6,7 +6,8 @@ Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own
 
 ## Play with it
 
-https://codesandbox.io/s/mystifying-oskar-xwlyg?file=/index.html
+Interactive: https://codesandbox.io/s/mystifying-oskar-xwlyg?file=/index.html
+Preview: https://mandrasch.github.io/vanilla-dooo/
 
 ## Create your own
 
