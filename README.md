@@ -11,21 +11,22 @@ The html5up.com theme "Phantom" was used as example, but you can use every HTML 
 
 1. Click on "Use template" button to create your own repository
 
-2. Sign up with Github on https://replit.com/
+2. Sign up on https://replit.com/
 
-3. Create project, select "Import from Github"
+3. Connect your GitHub Account
 
 4. Select your newly created repository from list
 
-5. Select "HTML" as language
+5. Hit "Run"
 
-6. Hit "Run"
+6. Open "version control" in sidebar, give replit.com editing permissions for the github repository
 
-7. Open "version control" in sidebar, give replit.com editing permissions for the github repository
+7. Commit changes you made to Github
 
-8. Commit changes you made to Github
+8. Have fun editing it in your browser!
 
-9. Have fun editing it in your browser!
+A german description with screenshots can be found here: 
+https://matthias-andrasch.eu/blog/2021/web-ides-fuer-kleine-domain-of-ones-own-experimente/ 
 
 (Alternatively you can use [Github Desktop](https://desktop.github.com) and an editor such as [Visual Studio Code](https://code.visualstudio.com/) to edit this project on your local laptop)
 
