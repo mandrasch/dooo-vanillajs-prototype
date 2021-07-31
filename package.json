@@ -1,0 +1,24 @@
+{
+  "name": "dooo-vanillajs-prototype",
+  "version": "1.0.0",
+  "description": "Tiny prototype for the \"domain of ones own\" concept",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files='./*.html,./*.css'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandrasch/dooo-vanillajs-prototype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrasch/dooo-vanillajs-prototype/issues"
+  },
+  "homepage": "https://github.com/mandrasch/dooo-vanillajs-prototype#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
