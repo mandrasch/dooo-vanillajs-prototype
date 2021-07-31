@@ -21,7 +21,7 @@
                 {
                     path: '/:filename',
                     action: function (context) {
-                        fetch('/pages/' + context.params.filename + '.html').then(function (response) {
+                        fetch('pages/' + context.params.filename + '.html').then(function (response) {
                             // The API call was successful!
                             // TODO Check HTTP STATUS Code
                             return response.text();
