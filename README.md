@@ -1,12 +1,11 @@
 # Vanilla DoOO
-Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own.de/). Empower students / teachers to publish their own tiny html websites. 
+Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own.de/). Empower students / teachers to publish their own tiny html websites with simple page navigation on Github Pages.
 
 ## Play with it
 
-- Interactive: https://codesandbox.io/s/mystifying-oskar-xwlyg?file=/index.html
 - Preview: https://mandrasch.github.io/vanilla-dooo/
 
-## Create your own
+## Create your own tiny website
 
 1. Click on "Use template" button, create your own repository
 2. Sign up with Github on https://replit.com/
@@ -17,23 +16,45 @@ Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own
 7. Open "version control" in sidebar, give replit.com editing permissions for the github repository
 8. Have fun editing online!
 
-## Install for another theme
+## Link to content pages
 
-1. Add `vanilla-dooo-main` class to main content area
+1. Create your page in `pages/` as .html file
+
+2. To load my-project.html, use
+
+    ```
+    <a href="#/pages/my-project.html`>My project link</a>
+    ```
+    
+    or use the following for markdown pages:
+
+    ```
+    <a href="#/pages/my-project.md`>My project link</a>
+    ```
+
+<hr>
+
+## For the nerds:
+
+### Install for another theme
+
+With some simple steps HTML themes can be converted to use with vanilla-dooo.
+
+1. Add `vanilla-dooo-main` class to main content area where content should be loaded
+
 2. Add vanilla-dooo-scripts at the end of body
 
     ```
     <!-- vanilla-dooo -->
 	<script src="vanilla-dooo/universal-router.min.js"></script>
-	<script src="vanilla-dooo/index.js"></script>
+	<script src="vanilla-dooo/marked.min.js"></script>
+	<script src="vanilla-dooo/vanilla-dooo.js"></script>
 	<!-- eo vanilla-dooo -->
     ```
 
-3. Link pages with `#/pages/filename` (without extensions), e.g. `#/pages/test1.html` `pages/test1.html`
+3. Link pages with `#/pages/filename`, e.g. `#/pages/test1` to load `pages/test1.html`
 
-<hr>
 
-## For the nerds:
 
 ### Tech stack
 
