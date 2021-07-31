@@ -16,6 +16,7 @@
             action: function () {
                 console.log('Navigating to index page, restoring original HTML');
                 window.location.href = 'index.html';
+                return true;
             }
         },
         {
