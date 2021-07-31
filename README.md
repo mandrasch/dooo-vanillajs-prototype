@@ -3,14 +3,19 @@ Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own
 
 ## Play with it
 
-Interactive: https://codesandbox.io/s/mystifying-oskar-xwlyg?file=/index.html
-Preview: https://mandrasch.github.io/vanilla-dooo/
+- Interactive: https://codesandbox.io/s/mystifying-oskar-xwlyg?file=/index.html
+- Preview: https://mandrasch.github.io/vanilla-dooo/
 
 ## Create your own
 
-1. "Use template"
-2. Import in codesandbox.com
-3. Link in codesandbox.com
+1. Click on "Use template" button, create your own repository
+2. Sign up with Github on https://replit.com/
+3. Create project, select "Import from Github"
+4. Select your newly created repository from list
+5. Select "HTML" as language
+6. Hit "Run"
+7. Open "version control" in sidebar, give replit.com editing permissions for the github repository
+8. Have fun editing online!
 
 ## Install for another theme
 
@@ -24,7 +29,7 @@ Preview: https://mandrasch.github.io/vanilla-dooo/
 	<!-- eo vanilla-dooo -->
     ```
 
-3. Link pages with `#/pages/filename`
+3. Link pages with `#/pages/filename` (without extensions), e.g. `#/pages/test1.html` `pages/test1.html`
 
 <hr>
 
