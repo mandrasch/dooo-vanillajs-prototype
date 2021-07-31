@@ -22,8 +22,8 @@ Preview: https://mandrasch.github.io/vanilla-dooo/
 
     ```
     <!-- vanilla-dooo -->
-	<script src="_vanilla-dooo/universal-router.min.js"></script>
-	<script src="_vanilla-dooo/index.js"></script>
+	<script src="vanilla-dooo/universal-router.min.js"></script>
+	<script src="vanilla-dooo/index.js"></script>
 	<!-- eo vanilla-dooo -->
     ```
 
