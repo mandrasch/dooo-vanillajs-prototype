@@ -23,7 +23,9 @@ The html5up.com theme "Phantom" was used as example, but you can use every HTML 
 
 7. Commit changes you made to Github
 
-8. Have fun editing it in your browser!
+8. Enable GitHub pages (Settings > Pages > Branch: main)
+
+9. Have fun editing it in your browser!
 
 A german description with screenshots can be found here: 
 https://matthias-andrasch.eu/blog/2021/web-ides-fuer-kleine-domain-of-ones-own-experimente/ 
