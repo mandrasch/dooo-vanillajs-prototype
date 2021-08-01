@@ -6,8 +6,13 @@ The html5up.com theme "Phantom" was used as example, but you can use every HTML 
 ## Play with it
 
 - Preview: https://mandrasch.github.io/tiny-dooo/
+- Interactive: [Open with gitpod.io](https://gitpod.io/#https://github.com/mandrasch/tiny-dooo)
 
 ## Create your own tiny website
+
+There are multiple ways on how to edit this project in your browser. You could use https://replit.com/ oder https://gitpod.io/# . 
+A german description with screenshots can be found here: 
+https://matthias-andrasch.eu/blog/2021/web-ides-fuer-kleine-domain-of-ones-own-experimente/ (Alternatively you can use [Github Desktop](https://desktop.github.com) and an editor such as [Visual Studio Code](https://code.visualstudio.com/) to edit this project on your local laptop) 
 
 1. Click on "Use template" button to create your own repository
 
@@ -27,10 +32,6 @@ The html5up.com theme "Phantom" was used as example, but you can use every HTML 
 
 9. Have fun editing it in your browser!
 
-A german description with screenshots can be found here: 
-https://matthias-andrasch.eu/blog/2021/web-ides-fuer-kleine-domain-of-ones-own-experimente/ 
-
-(Alternatively you can use [Github Desktop](https://desktop.github.com) and an editor such as [Visual Studio Code](https://code.visualstudio.com/) to edit this project on your local laptop)
 
 ## Link to content pages
 
