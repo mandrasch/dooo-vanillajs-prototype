@@ -7,7 +7,7 @@ Preview: https://mandrasch.github.io/tiny-dooo/
 
 ## Play with it
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mandrasch/tiny-dooo)
+[![Open in Gitpod](open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mandrasch/tiny-dooo)
 
 
 ## Create your own tiny website
