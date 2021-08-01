@@ -3,10 +3,12 @@ Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own
 
 The html5up.com theme "Phantom" was used as example, but you can use every HTML template you want with small additions.
 
+Preview: https://mandrasch.github.io/tiny-dooo/
+
 ## Play with it
 
-- Preview: https://mandrasch.github.io/tiny-dooo/
-- Interactive: [Open with gitpod.io](https://gitpod.io/#https://github.com/mandrasch/tiny-dooo)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mandrasch/tiny-dooo)
+
 
 ## Create your own tiny website
 
