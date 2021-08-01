@@ -1,3 +1,9 @@
+# Deprecated
+
+See https://github.com/mandrasch/11ty-up-massively for a newer version of my experiment
+
+<hr>
+
 # tiny-DoOO
 Tiny prototype for the "Domain of One's Own" concept (https://domain-of-ones-own.de/). Empower students / teachers to publish their own tiny html websites with simple page navigation on Github Pages.
 
